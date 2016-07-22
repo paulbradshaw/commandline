@@ -41,5 +41,13 @@ This involves a number of elements which are worth breaking down:
 * Creating a loop which will repeat an action
 * Specifying a time period for the process
 
+## Example of scraping sequential URLs using cURL
+
+[This article](http://chronicle.com/blogs/profhacker/download-a-sequential-range-of-urls-with-curl/41055) outlines ways to use command line to download a series of files which have a common URL structure. An example would be:
+
+`curl --limit-rate 10k "http://forklift-photos.com.s3.amazonaws.com/[12-48].jpg" -o "#1.jpg"`
+
+
+
 
 
