@@ -8,7 +8,9 @@ cURL is a very useful command for downloading files. Used on its own it will jus
 
 `curl -O http://www.gov.scot/Resource/0049/00498327.pdf`
 
-Will download the file to the current directory (cd)
+...will download the file to the current directory (cd)
+
+This command, however, adds a second file to download:
 
 `curl -O http://www.gov.scot/Resource/0049/00498327.pdf -O http://www.gov.scot/Resource/0049/00498328.pdf`
 
