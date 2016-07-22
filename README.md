@@ -47,7 +47,7 @@ This involves a number of elements which are worth breaking down:
 
 `curl --limit-rate 10k "http://forklift-photos.com.s3.amazonaws.com/[12-48].jpg" -o "#1.jpg"`
 
-
-
+* `-o` specifies that we want to save in a file, named after: `"#1.jpg"`
+* The `#1` is a placeholder that is replaced with the number being generated (12, 13, etc)
 
 
