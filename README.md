@@ -4,6 +4,8 @@ I'll add notes here about various techniques using the command line.
 
 ## cURL
 
+cURL is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. 
+
 `curl -O http://www.gov.scot/Resource/0049/00498327.pdf`
 
 Will download the file to the current directory (cd)
@@ -24,4 +26,20 @@ It all needs to be on the same line. The function JOIN in Google Sheets is good 
 To change the current directory type `cd` followed by the name of the folder (in this directory) you want to move into.
 
 Of course, how do you know what folders are in this directory?! Type `ls` (that's an L) and it will list the folders.
+
+## Example of live scraping using cURL
+
+Tony Hirst has [an example of using cURL to scrape live F1 timings here](https://blog.ouseful.info/2016/07/18/simple-live-timing-data-scraper/)
+
+The code is:
+
+`mkdir f1_silverstone i=1; sleep 900; while true ; do curl http://www.livesportstreaming24.com/live.php >> f1_silverstone/f1output_race_${i}.txt ;i=$((i+1)); sleep 5 ; done`
+
+This involves a number of elements which are worth breaking down:
+
+* Making a new directory
+* Creating a loop which will repeat an action
+* Specifying a time period for the process
+
+
 
