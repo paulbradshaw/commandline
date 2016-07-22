@@ -50,4 +50,6 @@ This involves a number of elements which are worth breaking down:
 * `-o` specifies that we want to save in a file, named after: `"#1.jpg"`
 * The `#1` is a placeholder that is replaced with the number being generated (12, 13, etc)
 
+[This article has some more examples](http://www.thegeekstuff.com/2012/04/curl-examples/)
+
 
