@@ -25,3 +25,11 @@ If you need to keep moving to get to where your file was, keep using `ls` and `c
 ## cURL
 
 cURL is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. I've written some [tips and ideas for using cURL here](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md)
+
+## Try.Jupyter
+
+The [Try Jupyter!](https://try.jupyter.org/) option at try.jupyter.org is an online environment that creates a temporary way "to try out a recent development version of the IPython/Jupyter notebook." One nice feature of Try Jupyter is that it allows you to work in a Terminal too. To launch one, click on **New** in the right corner, and select **Terminal**. This will open up a big black box where you can type commands just like on a computer's Terminal. The first command to try is: 
+
+`ls`
+
+This will list the files and folders in the current directory - and you should see the same list that you saw on the main try.jupyter.org page. 
