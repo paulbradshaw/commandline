@@ -16,13 +16,19 @@ Knowing where you *are* is useful, but it's even more useful to know where you c
 
 `ls`
 
+(or, on Windows: `dir`)
+
 You should see a list appear. To change directory into any folders listed type `cd` followed by the name of the directory. For example if your list contained 'Desktop' and 'Documents' you can move into the desktop folder by typing:
 
 `cd Desktop`
 
 If you need to keep moving to get to where your file was, keep using `ls` and `cd` to see what folders there are and then move into one of them. Alternatively, you can just go back to your Python file and save it somewhere you've already moved into!
 
-## cURL
+## Combining files with `cat` (Linux/Mac) or `type` (Windows)
+
+[More about that here](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
+
+## `cURL`
 
 cURL is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. I've written some [tips and ideas for using cURL here](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md)
 
