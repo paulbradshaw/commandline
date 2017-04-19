@@ -4,7 +4,9 @@ One of the most useful applications of command line is the ability to join multi
 
 First it's best to make sure all your CSV files are in the same folder, and you have no other CSV files in there as well.
 
-Then type:
+Then open the command line utility (in Windows click on the Start button in the bottom left corner and type `cmd`; in Mac click on the magnifying glass in the top right and type *Terminal*).
+
+And type:
 
 `cat *.csv > allthedata.csv`
 
