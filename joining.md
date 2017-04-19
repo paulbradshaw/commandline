@@ -1,4 +1,4 @@
-# Joining files using command line (cat/type)
+# Joining files using command line (`cat`/`type`)
 
 One of the most useful applications of command line is the ability to join multiple files (for example CSV files) using the command cat (in Linux/Mac) or type (in PC).
 
