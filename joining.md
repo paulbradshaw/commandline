@@ -6,16 +6,16 @@ First it's best to make sure all your CSV files are in the same folder, and you 
 
 Then type:
 
-cat *.csv > allthedata.csv
+`cat *.csv > allthedata.csv`
 
 Or in Windows:
 
-type *.csv > allthedata.csv
+`type *.csv > allthedata.csv`
 
 The asterisk is a wild card that means 'any characters', so it basically means take any file that ends in .csv and combine them all into a new file called allthedata.csv
 
 You can be more specific, e.g. 
 
-cat *street.csv
+`cat *street.csv`
 
 The Police crime archive data, for example uses 3 types of ending: street, outcomes, and stop-and-search.
