@@ -1,6 +1,6 @@
 # Using command line to see the first line(s) of a file (or files)
 
-If you have a very large file on your computer which cannot be easily opened with conventional software - or you want to check a number of files, the `head` command can be a quicker way of doing this.
+If you have a very large file on your computer which cannot be easily opened with conventional software - or you want to check a number of files, the `head` command (in Terminal) can be a quicker way of doing this. For the alternative in Windows' PowerShell (`Get-Content`), [see this guide](https://technet.microsoft.com/en-us/library/ee176843.aspx).
 
 ## Default: showing the first 10 lines
 
