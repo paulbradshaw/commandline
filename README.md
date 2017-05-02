@@ -28,6 +28,10 @@ If you need to keep moving to get to where your file was, keep using `ls` and `c
 
 [More about that here](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
 
+## Checking the first line(s) of a file (or files) with `head`
+
+I've [written about that here](https://github.com/paulbradshaw/commandline/blob/master/head.md)
+
 ## `cURL`
 
 cURL is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. I've written some [tips and ideas for using cURL here](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md)
