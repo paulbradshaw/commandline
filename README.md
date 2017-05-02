@@ -1,6 +1,8 @@
 # Notes on using command line within Terminal on a Mac
 
-I'll add notes here about various techniques using the command line.
+Command line is a way of navigating files on your computer, and doing things with them. In this repo I'll add notes about various useful techniques for journalists using the command line.
+
+If you have a Mac or Linux-based machine, you can run command line from the **Terminal**. Most of the notes here are based on this approach (as I use a Mac). For Windows machines you can [use PowerShell](http://www.computerperformance.co.uk/windows7/windows7_powershell.htm) or type 'cmd' in the search box. You may need to search for the Windows version of the same command.
 
 ## Getting started: where am I?
 
@@ -36,7 +38,11 @@ I've [written about that here](https://github.com/paulbradshaw/commandline/blob/
 
 cURL is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. I've written some [tips and ideas for using cURL here](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md)
 
-## Try.Jupyter
+## Places to practise command line
+
+There are a number of ways you can practise command line, outside of your own computer. [Codecademy has an interactive course on command line](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command), for example.
+
+### Try.Jupyter
 
 The [Try Jupyter!](https://try.jupyter.org/) option at try.jupyter.org is an online environment that creates a temporary way "to try out a recent development version of the IPython/Jupyter notebook." One nice feature of Try Jupyter is that it allows you to work in a Terminal too. To launch one, click on **New** in the right corner, and select **Terminal**. This will open up a big black box where you can type commands just like on a computer's Terminal. The first command to try is: 
 
