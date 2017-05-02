@@ -30,6 +30,14 @@ head *.csv
 
 If you are doing this, it's a good idea to create a specific folder just for this task, and put all your files in there.
 
+Another option is to use the results of the `ls` command (which lists *all* the files in the current directory) as the basis for `head`, like so:
+
+```
+ls | head
+```
+
+This is basically a way of saying 'Show me the first line of all files in this directory'.
+
 ## Showing a different number of files with `head`
 
 10 lines is just the default. You can specify a different number of lines using `-n` followed by the number of lines you want, like so:
@@ -61,3 +69,5 @@ head -n1 myfile.csv > myheaders.csv
 ```
 
 This new file will be created in the same directory as you have been writing this code.
+
+You can [read more about the `head` command in the documentation here](http://www.linfo.org/head.html). This includes how to grab the first number of *characters* using `-c`, how to `sort` the results, and the alternative `tail` command
