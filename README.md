@@ -30,9 +30,13 @@ If you need to keep moving to get to where your file was, keep using `ls` and `c
 
 [More about that here](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
 
-## Checking the first line(s) of a file (or files) with `head`
+## Checking the first line(s) of a file (or files) with `head` or `Get-Content`
 
 I've [written about that here](https://github.com/paulbradshaw/commandline/blob/master/head.md)
+
+## Counting the number of rows, words or characters in a large file with `wc` or `Measure-Object`
+
+I've [written about that here](https://github.com/paulbradshaw/commandline/blob/master/linecount.md)
 
 ## `cURL`
 
