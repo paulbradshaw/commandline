@@ -1,4 +1,4 @@
-# Notes on using command line within Terminal on a Mac
+# Notes on using command line (Terminal on a Mac/Linux, PowerShell on Windows)
 
 Command line is a way of navigating files on your computer, and doing things with them. In this repo I'll add notes about various useful techniques for journalists using the command line.
 
@@ -45,6 +45,10 @@ cURL is a very useful command for downloading files. Used on its own it will jus
 ## Mass converting CSVs using `curl` with the PDFTables API and other APIs
 
 The [PDFTables API](https://pdftables.com/pdf-to-excel-api) allows you to convert PDFs to CSV, Excel or XML files using `curl` in command line. [I've written a brief tutorial here](https://github.com/paulbradshaw/commandline/blob/master/pdfconversionapi.md).
+
+## Redacting documents before publication
+
+This is a great one: [CryptoAustralia walk you through using command line to scrub documents of metadata that might compromise sources](https://blog.cryptoaustralia.org.au/2017/05/02/secure-comms-for-journalists/)
 
 ## Places to practise command line
 
