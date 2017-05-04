@@ -15,3 +15,7 @@ You can adapt this code as follows:
 5. As it stands this code won't actually create a new file - it will just display its contents in Terminal or PowerShell. So to make sure the converted PDF is actually stored in a new file, add `> mynewfile.csv` at the end (or whatever name you prefer). A new file will be created with that name in the same location.
 
 For more than one file you can use wildcards to select them and a [for loop](https://www.cyberciti.biz/faq/linux-unix-bash-for-loop-one-line-command/) to create the resulting files.
+
+## The Tabula command line extractor tool
+
+Tabula offers a similar functionality around tables embedded in PDFs, but it's more complex to use. [Documentation is here](https://github.com/tabulapdf/tabula-java/wiki/Using-the-command-line-tabula-extractor-tool)
