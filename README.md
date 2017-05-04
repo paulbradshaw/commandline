@@ -61,3 +61,7 @@ The [Try Jupyter!](https://try.jupyter.org/) option at try.jupyter.org is an onl
 `ls`
 
 This will list the files and folders in the current directory - and you should see the same list that you saw on the main try.jupyter.org page. 
+
+## Other command line links and ideas
+
+I [maintain a list of command line-related links in my Pinboard bookmarks tagged 'commandline'](https://pinboard.in/u:paulbradshaw/t:commandline/)
