@@ -30,6 +30,10 @@ If you need to keep moving to get to where your file was, keep using `ls` and `c
 
 [More about that here](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
 
+## Moving files
+
+Mina Demian has [written a quick guide here](https://gist.github.com/minademian/56fad650e759a14e0bfff9a6f988bc5a)
+
 ## Checking the first line(s) of a file (or files) with `head` or `Get-Content`
 
 I've [written about that here](https://github.com/paulbradshaw/commandline/blob/master/head.md)
