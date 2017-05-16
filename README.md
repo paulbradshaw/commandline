@@ -36,17 +36,25 @@ Mina Demian has [written a quick guide here](https://gist.github.com/minademian/
 
 ## Running shell scripts
 
-The above file is a `.sh` file - that means it is a *shell script*. A shell script is a file which contains commands you might normally run in Terminal or PowerShell. If you wanted to run those commands more than once, it helps to be able to store it in a separate file. To identify it as a shell script, the first line is normally `#!/bin/bash`.
+The above file created by Mina Demian is a `.sh` file - that means it is a *shell script*. A shell script is a file which contains commands you might normally run in Terminal or PowerShell. If you wanted to run those commands more than once, it helps to be able to store it in a separate file. To identify it as a shell script, the first line is normally `#!/bin/bash`.
 
-To run a shell script navigate to the folder containing it using `cd` (as detailed above) and then type `./` followed by the name of your .sh file, like so:
+To run a shell script navigate to the folder containing it using `cd` (as detailed above) and then type `bash` *or* `sh` *or* `./` followed by the name of your .sh file, like so:
+
+`bash myscript.sh`
+
+Or: 
+
+`sh myscript.sh`
+
+Or:
 
 `./myscript.sh`
 
 You can also save the results of running the script into a new file using `>` like so:
 
-`./myscript.sh > resultsofmyscript.txt`
+`bash myscript.sh > resultsofmyscript.txt`
 
-For troubleshooting, [see this guide](https://askubuntu.com/questions/38661/how-do-i-run-sh-files)
+For troubleshooting, [see this guide](https://askubuntu.com/questions/38661/how-do-i-run-sh-files). You can also find [a beginner's guide to the basics of shell programming here](https://www.howtogeek.com/67469/the-beginners-guide-to-shell-scripting-the-basics/) and [a more advanced guide to getting started with shell programming here](http://www.freeos.com/guides/lsst/ch02.html)
 
 ## Checking the first line(s) of a file (or files) with `head` or `Get-Content`
 
