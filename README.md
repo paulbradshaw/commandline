@@ -56,6 +56,14 @@ You can also save the results of running the script into a new file using `>` li
 
 For troubleshooting, [see this guide](https://askubuntu.com/questions/38661/how-do-i-run-sh-files). You can also find [a beginner's guide to the basics of shell programming here](https://www.howtogeek.com/67469/the-beginners-guide-to-shell-scripting-the-basics/) and [a more advanced guide to getting started with shell programming here](http://www.freeos.com/guides/lsst/ch02.html)
 
+## The command line version of 'print'
+
+You can get the command line to print things by using `echo`. For example:
+
+`echo "Hello World"`
+
+It's not that useful on its own, but can be incorporated into shell scripts as detailed above...
+
 ## Checking the first line(s) of a file (or files) with `head` or `Get-Content`
 
 I've [written about that here](https://github.com/paulbradshaw/commandline/blob/master/head.md)
