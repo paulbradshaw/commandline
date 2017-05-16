@@ -34,6 +34,20 @@ If you need to keep moving to get to where your file was, keep using `ls` and `c
 
 Mina Demian has [written a quick guide here](https://gist.github.com/minademian/56fad650e759a14e0bfff9a6f988bc5a)
 
+## Running shell scripts
+
+The above file is a `.sh` file - that means it is a *shell script*. A shell script is a file which contains commands you might normally run in Terminal or PowerShell. If you wanted to run those commands more than once, it helps to be able to store it in a separate file. To identify it as a shell script, the first line is normally `#!/bin/bash`.
+
+To run a shell script navigate to the folder containing it using `cd` (as detailed above) and then type `./` followed by the name of your .sh file, like so:
+
+`./myscript.sh`
+
+You can also save the results of running the script into a new file using `>` like so:
+
+`./myscript.sh > resultsofmyscript.txt`
+
+For troubleshooting, [see this guide](https://askubuntu.com/questions/38661/how-do-i-run-sh-files)
+
 ## Checking the first line(s) of a file (or files) with `head` or `Get-Content`
 
 I've [written about that here](https://github.com/paulbradshaw/commandline/blob/master/head.md)
