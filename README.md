@@ -26,6 +26,10 @@ You should see a list appear. To change directory into any folders listed type `
 
 If you need to keep moving to get to where your file was, keep using `ls` and `cd` to see what folders there are and then move into one of them. Alternatively, you can just go back to your Python file and save it somewhere you've already moved into!
 
+To go back up one level use `..` with `cd` like so:
+
+`cd ..`
+
 ## Combining files with `cat` (Linux/Mac) or `type` (Windows)
 
 [More about that here](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
