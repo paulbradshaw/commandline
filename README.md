@@ -42,7 +42,9 @@ To find out about a command like `ls` or `cd` you can use the *manual* - that is
 
 ## Moving files
 
-Mina Demian has [written a quick guide here](https://gist.github.com/minademian/56fad650e759a14e0bfff9a6f988bc5a)
+[More about that here](https://github.com/paulbradshaw/commandline/blob/master/movingfiles.md)
+
+Mina Demian has [written a little shell script here that does something similar too](https://gist.github.com/minademian/56fad650e759a14e0bfff9a6f988bc5a)
 
 ## Running shell scripts
 

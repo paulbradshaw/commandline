@@ -69,3 +69,9 @@ mv `find ~YOURCOMPUTERNAME/Desktop -name "*street.csv"` ~YOURCOMPUTERNAME/Deskto
 This is taken by `mv` to describe the files that need to be moved. The second part, then, just describes where to move it to.
 
 Try that. You should now have 12 CSV files together in that folder. 
+
+## Encoding in a shell script
+
+If you need to do this more than once you can store it in a shell script and run that instead. I've [done that here](https://github.com/paulbradshaw/commandline/blob/master/moveandcombinecsv.sh). To run it you would use `cd` to navigate to the folder containing the file, and then enter:
+
+`bash moveandcombinecsv.sh`
