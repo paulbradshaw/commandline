@@ -30,6 +30,12 @@ To go back up one level use `..` with `cd` like so:
 
 `cd ..`
 
+## Finding out what commands do
+
+To find out about a command like `ls` or `cd` you can use the *manual* - that is, `man` followed by the command (known as a *utility*) you want to find out about, like so:
+
+`man cd`
+
 ## Combining files with `cat` (Linux/Mac) or `type` (Windows)
 
 [More about that here](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
@@ -46,7 +52,7 @@ To run a shell script navigate to the folder containing it using `cd` (as detail
 
 `bash myscript.sh`
 
-Or: 
+Or:
 
 `sh myscript.sh`
 
@@ -94,11 +100,11 @@ There are a number of ways you can practise command line, outside of your own co
 
 ### Try.Jupyter
 
-The [Try Jupyter!](https://try.jupyter.org/) option at try.jupyter.org is an online environment that creates a temporary way "to try out a recent development version of the IPython/Jupyter notebook." One nice feature of Try Jupyter is that it allows you to work in a Terminal too. To launch one, click on **New** in the right corner, and select **Terminal**. This will open up a big black box where you can type commands just like on a computer's Terminal. The first command to try is: 
+The [Try Jupyter!](https://try.jupyter.org/) option at try.jupyter.org is an online environment that creates a temporary way "to try out a recent development version of the IPython/Jupyter notebook." One nice feature of Try Jupyter is that it allows you to work in a Terminal too. To launch one, click on **New** in the right corner, and select **Terminal**. This will open up a big black box where you can type commands just like on a computer's Terminal. The first command to try is:
 
 `ls`
 
-This will list the files and folders in the current directory - and you should see the same list that you saw on the main try.jupyter.org page. 
+This will list the files and folders in the current directory - and you should see the same list that you saw on the main try.jupyter.org page.
 
 ## Other command line links and ideas
 

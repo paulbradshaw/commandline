@@ -16,8 +16,38 @@ Or in Windows:
 
 The asterisk is a wild card that means 'any characters', so it basically means take any file that ends in .csv and combine them all into a new file called allthedata.csv
 
-You can be more specific, e.g. 
+You can be more specific, e.g.
 
 `cat *street.csv`
 
 The [Police crime archive](https://data.police.uk/data/archive/) data, for example uses 3 types of ending: street, outcomes, and stop-and-search.
+
+## Exercise: combining stop and search data
+
+First, go to the [Data.police.uk data downloads page](https://data.police.uk/data/) and select the last year of stop and search data for a particular police force. At the time of writing I selected data from June 2016 to May 2017, and made sure I ticked 'stop and search data' at the bottom.
+
+This will download as a zip file. Unzip it - you should now have a folder containing all the CSV files for that period: 12 further folders, each with 3 files in it (outcomes, stop and search, and crimes). So, 36 CSVs total.
+
+To make things easier for yourself, rename the folder containing all these files (otherwise it has a crazy name like '4768f3ec2965fe1c3a694bdedbe7d82a4bef11c1'). I've called it *tocombine*.
+
+Then move it somewhere you can easily get to, like Documents or Desktop.
+
+Now open up Terminal, and type:
+
+`ls`
+
+This will list the folders in the current directory. Hopefully one of those should be *Desktop* and another *Documents*. I've put my folder in Desktop, so I need to go there. To do that:
+
+`cd Desktop`
+
+Now to move into the folder we created:
+
+`cd tocombine`
+
+Unfortunately all the files we want to combine are in separate folders. There is a way to automatically extract them and put them in one - but given there are only 12, let's just do that manually for the stop and search data.
+
+Right. You should now have 12 CSV files together in that folder. Now type
+
+`cat *.csv > stopandsearch12month.csv`
+
+You should now have a new file in the same folder with that name, ready to be analysed.
