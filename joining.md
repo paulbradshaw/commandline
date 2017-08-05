@@ -44,7 +44,7 @@ Now to move into the folder we created:
 
 `cd tocombine`
 
-Unfortunately all the files we want to combine are in separate folders. There is a way to automatically extract them and put them in one - but given there are only 12, let's just do that manually for the stop and search data.
+Unfortunately all the files we want to combine are in separate folders. [There is a way to automatically extract them and put them in one](https://github.com/paulbradshaw/commandline/blob/master/movingfiles.md) - but if you don't want to do that as well, just do that manually for the stop and search data.
 
 Right. You should now have 12 CSV files together in that folder. Now type
 
