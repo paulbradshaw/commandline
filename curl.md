@@ -13,12 +13,10 @@ The key points:
 * Then the filename. This only works where you have file extensions, it doesn't really work with webpages
 * Then -O again, and the second filename, and so on
 
-It all needs to be on the same line. The function JOIN in Google Sheets is good for this, and you can add " -O " as a delimiter.
+It all needs to be on the same line. The function `JOIN` in Google Sheets is good for this, and you can add " -O " as a delimiter.
 
-It all needs to be on the same line. The function JOIN in Google Sheets is good for this, and you can add " -O " as a delimiter.
+* The directory is shown in Terminal at the start of the line after the name of the computer and a colon, e.g. `Pauls-Desktop-Air:Desktop` means it's on the Desktop. If it is just a slash e.g. `Pauls-Desktop-/` then it's in the root directory.
 
-* The directory is shown in Terminal at the start of the line after the name of the computer and a colon, e.g. Pauls-Desktop-Air:Desktop means it's on the Desktop. If it is just a slash e.g. Pauls-Desktop-/ then it's in the root directory.
+To change the current directory type `cd` followed by the name of the folder (in this directory) you want to move into.
 
-To change the current directory type cd followed by the name of the folder (in this directory) you want to move into.
-
-Of course, how do you know what folders are in this directory?! Type ls (that's an L) and it will list the folders.
+Of course, how do you know what folders are in this directory?! Type `ls` (that's an L) and it will list the folders.
