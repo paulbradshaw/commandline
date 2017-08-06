@@ -84,9 +84,9 @@ I've [written about that here](https://github.com/paulbradshaw/commandline/blob/
 
 I've [written about that here](https://github.com/paulbradshaw/commandline/blob/master/linecount.md)
 
-## `cURL`
+## `curl`
 
-cURL is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. I've written some [tips and ideas for using cURL here](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md)
+`curl` is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. I've written some [tips and ideas for using curl here](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md)
 
 ## Mass converting CSVs using `curl` with the PDFTables API and other APIs
 

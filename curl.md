@@ -1,4 +1,4 @@
-# cURL
+# curl
 
 `curl -O http://www.gov.scot/Resource/0049/00498327.pdf`
 
@@ -29,7 +29,7 @@ Many sites - from blogs to job ad sites - use page numbering to order pages. Her
 
 Not surprisingly, you can access any other page in the archive by simply changing that number.
 
-This is a perfect opportunity to demonstrate a simple scraping technique using `cURL`.
+This is a perfect opportunity to demonstrate a simple scraping technique using `curl`.
 
 To grab a range of pages rather than one, put the range in square brackets like so. In this case we're just going to grab eight:
 
@@ -87,4 +87,4 @@ Here, for example, we grab every 10th number from 1 to 80 (1, 11, 21, and so on)
 
 `curl "https://paulbradshaw.tumblr.com/page/[1-80:10]" -o "#1.html" --limit-rate 10k`
 
-You can [find more options and examples in this documentation](https://curl.haxx.se/docs/manpage.html), which also offers a [link to a free PDF book](https://www.gitbook.com/download/pdf/book/bagder/everything-curl)
+You can [find more options and examples in this documentation](https://curl.haxx.se/docs/manpage.html), which also offers a [link to a free PDF book](https://www.gitbook.com/download/pdf/book/bagder/everything-curl). The site also explains `libcurl`, which is a library that can be used outside of command line in more general programming.
