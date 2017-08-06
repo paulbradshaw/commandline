@@ -53,11 +53,13 @@ Now we need to specify the name of the file - but we're going to have 8, not jus
 
 `curl "https://paulbradshaw.tumblr.com/page/[1-8]" -o "#1.html"`
 
-The `"#1.html"` at the end is a placeholder - for each number (#1) in the range, that number will be added to `.html` to create the file name.
+The `"#1.html"` at the end is a placeholder - for each number (#1) in the range, that number will be added to `.html` to create the file name. Obviously if you were grabbing sequentially numbered PDF files, .txt files, .jpg images, .xls files or some other file format, you would use that extension instead.
 
 So now you have your command in full - try it:
 
 `curl "https://paulbradshaw.tumblr.com/page/[1-8]" -o "#1.html"`
+
+Note that the script will only grab the HTML files - any images, video, audio, external scripts, etc. will not be grabbed. However, the links to those images will be in the HTML, so it may *appear* as if images are still working. They will - but only with an internet connection, and *only as long as those images are online*. So if you want to capture the images as well, you will need to do so separately (for example, you could use command line to find every mention of .jpg in those files, then use curl to grab those).
 
 ## Slowing down the scraper
 
@@ -66,3 +68,23 @@ If you're doing this with a lot of pages, it's a good idea to slow down the rate
 You can slow the script down by specifying a per-second limit on the amount of information gathered, using `--limit-rate`:
 
 `curl "https://paulbradshaw.tumblr.com/page/[1-8]" -o "#1.html" --limit-rate 10k`
+
+## Alphabetical ranges
+
+Alphabetical ranges can be grabbed in the same way, like so:
+
+`https://www.parliament.uk/mps-lords-and-offices/standards-and-interests/register-of-lords-interests/?letter=[A-Z]`
+
+Or, with the code in full (I've changed it to A-E so only 5 pages are grabbed to test):
+
+`curl "https://www.parliament.uk/mps-lords-and-offices/standards-and-interests/register-of-lords-interests/?letter=[A-E]" -o "#1.html"`
+
+## 'Stepped' ranges (every third, tenth, fifth, etc.)
+
+You can specify that you don't want every number in a range by adding the 'step' after a colon like so: `[1-100:10]`.
+
+Here, for example, we grab every 10th number from 1 to 80 (1, 11, 21, and so on):
+
+`curl "https://paulbradshaw.tumblr.com/page/[1-80:10]" -o "#1.html" --limit-rate 10k`
+
+You can [find more options and examples in this documentation](https://curl.haxx.se/docs/manpage.html), which also offers a [link to a free PDF book](https://www.gitbook.com/download/pdf/book/bagder/everything-curl)
