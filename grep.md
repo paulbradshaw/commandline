@@ -36,4 +36,24 @@ Results can then be saved as new file.
 
 ## An example of using GREP on multiple files
 
-`Category 2: Remunerated employment, office, profession etc.</td></tr><tr><td>`
+In this example I'm using the Lords Register of Interests - elsewhere in this repo [I explain how to download those pages using `curl`](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md), but you can also do this manually. Either way you'll need a few HTML pages first, and to navigate into the folder containing those.
+
+If we wanted the names, the HTML before the information we want would look like this (note the space):
+
+`Lord `
+
+And the HTML after is:
+
+`</td></tr><tr><td class="lordsinterestcategory">`
+
+So we might write:
+
+`grep "Lord .*</td></tr><tr><td class=" [A-E].html -o > results.txt`
+
+Other options include:
+
+`grep "Police and Crime Commissioner" [A-E].html -o > results.txt`
+
+`grep "Chairman, [A-Za-z]*" [A-E].html -o > results.txt`
+
+`grep "Chairman, \w*\s\w*\s\w*\s\w*\s\w*" [A-E].html -o > results.txt`
