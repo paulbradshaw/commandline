@@ -2,7 +2,46 @@
 
 Command line can be particularly useful for searching through multiple and/or large documents.
 
-The `grep` command in particular allows you to search for patterns and grab the documents or sentences containing them.
+The `grep` command in particular allows you to search for patterns and grab the documents, lines or sentences containing them.
+
+## An example of using GREP to create a subset of a large dataset
+
+The dataset of MPs' expenses claims is rather large - over 67MB. Rather than work with this in Excel we might decide to create a smaller file using command line and `grep`. Let's say we were interested in one MP called Adrian Bailey: we can write a command which identifies any lines in that CSV containing his name, and then puts the matching lines into a new CSV called 'baileysubset.csv'. Here it is:
+
+`grep ".*Adrian Bailey.*" Individual_claims_for_16_17.csv > baileysubset.csv`
+
+After `grep` itself we need to identify the pattern we are looking for. This is placed inside quotation marks and can include special *regex* symbols:
+
+`".*Adrian Bailey.*"`
+
+In this case, `.*` means 'none or more of any character', so we are looking for any line that contains none of more of any character, followed by his name, followed by none or any character.
+
+We then specify the file we are looking in:
+
+`Individual_claims_for_16_17.csv`
+
+Left as it is, this would then print the results to Terminal or PowerShell itself - but we want to store the results in a new file. To do that we add the `>` operator followed by a name for the file we want to put the results in
+
+`> baileysubset.csv`
+
+When the command runs a new file should appear with that name, in the directory that you have moved to (type `pwd` to find out where you are - this should be the same location as the CSV file you are searching/grepping).
+
+## An example of using curl and GREP to download and search webpages
+
+The ads for police on Reed.co.uk include page numbering like so: https://www.reed.co.uk/jobs?cached=True&pageno=1&keywords=police
+
+We can use `curl` to cycle through the 10 most recent pages and save them locally:
+
+`curl "https://www.reed.co.uk/jobs?cached=True&pageno=[1-10]&keywords=police" -o "#1.html"`
+
+Then we can use `grep` to find the location of all those jobs:
+
+`grep '<li class="location">.*' *.html > locations.txt`
+
+Or, indeed, we could save it in a CSV:
+
+`grep '<li class="location">.*' *.html > locations.csv`
+
 
 ## An example of using GREP to extract links in one webpage
 

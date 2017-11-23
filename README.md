@@ -4,15 +4,21 @@ Command line is a way of navigating files on your computer, and doing things wit
 
 If you have a Mac or Linux-based machine, you can run command line from the **Terminal**. Most of the notes here are based on this approach (as I use a Mac). For Windows machines you can [use PowerShell](http://www.computerperformance.co.uk/windows7/windows7_powershell.htm) or type 'cmd' in the search box. You may need to search for the Windows version of the same command.
 
+Because I use a Mac, the commands listed below and in this repo will normally work in Terminal. In some cases I've also listed the PowerShell equivalent. If you cannot find the PowerShell equivalent, [check this reference list of commands in both Unix and Windows](https://www.lemoda.net/windows/windows2unix/windows2unix.html), or search for the name of the command and 'equivalent in PowerShell'.
+
 ## Getting started: where am I?
 
-One of the most confusing things about using the command line is knowing where you are and moving around. Often you will need to navigate to a particular folder on your computer in order to use or create files there. Some key commands in getting oriented are `pwd`, `ls` and `cd`.
+We are used to navigating around the computer using physical world analogies: the 'desktop' is supposed represent the contents of the computer as an office desk with objects on it. 'Documents' might be kept inside 'folders', and so on. None of these things exist, of course - they are just metaphors. But we are so used to that way of navigating, that a simple black screen can be disorienting.
+
+One of the most confusing things about using the command line, then, is knowing where you are and moving around without those familiar icons to help. Often you will need to navigate to a particular folder on your computer in order to use or create files there.
+
+Some key commands in getting oriented are `pwd`, `ls` and `cd`.
 
 A good first command to type the first time you open Terminal is:
 
 `pwd`
 
-This means 'present working directory' and will show you where you are in the computer. A typical result might be something like `/Users/yourname` but you might also get `/` which means the root directory on your machine.
+This means 'present working directory' and will show you where you are in the computer. A typical result might be something like `/Users/yourname` but you might also get `/` which means the *root* directory on your machine (where everything is stored - think of it as the bottommost part of the computer, or the 'room' containing the desktop, filing cabinet and everything else).
 
 Knowing where you *are* is useful, but it's even more useful to know where you can *go*. To find out all the folders and files in the current directory type:
 
@@ -20,13 +26,17 @@ Knowing where you *are* is useful, but it's even more useful to know where you c
 
 (or, on Windows: `dir`)
 
-You should see a list appear. To change directory into any folders listed type `cd` followed by the name of the directory. For example if your list contained 'Desktop' and 'Documents' you can move into the desktop folder by typing:
+You should see a list appear. To change directory (move) into any folders listed type `cd` followed by the name of the directory. For example if your list contained 'Desktop' and 'Documents' you can move into the Desktop folder by typing:
 
 `cd Desktop`
 
-If you need to keep moving to get to where your file was, keep using `ls` and `cd` to see what folders there are and then move into one of them. Alternatively, you can just go back to your Python file and save it somewhere you've already moved into!
+You can move more quickly by describing a path through multiple levels like so:
 
-To go back up one level use `..` with `cd` like so:
+`cd Desktop/mystuff/myproject`
+
+If you need to keep moving to get to where a file is, keep using `ls` and `cd` to see what folders there are and then move into one of them. Alternatively, you can leave command line, save your file somewhere you've already moved into, and then come back to command line to work with it!
+
+To go *back* up one level use `..` with `cd` like so:
 
 `cd ..`
 
