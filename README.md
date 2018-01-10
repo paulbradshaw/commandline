@@ -124,4 +124,5 @@ This will list the files and folders in the current directory - and you should s
 
 ## Other command line links and ideas
 
-I [maintain a list of command line-related links in my Pinboard bookmarks tagged 'commandline'](https://pinboard.in/u:paulbradshaw/t:commandline/)
+* I [maintain a list of command line-related links in my Pinboard bookmarks tagged 'commandline'](https://pinboard.in/u:paulbradshaw/t:commandline/)
+* [8 Useful Shell Commands For Data Science](https://www.datacamp.com/community/tutorials/shell-commands-data-scientist)
