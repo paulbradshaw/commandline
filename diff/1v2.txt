@@ -1,0 +1,17 @@
+--- v1.md	2018-08-29 16:45:10.000000000 +0100
++++ v2.md	2018-08-29 16:45:07.000000000 +0100
+@@ -1,11 +1,11 @@
+-# This is version 1
++# This is version 2
+ 
+ It was August 7.
+ 
+ Here I am writing about my awful day.
+ 
+-It was terrible.
++It was great.
+ 
+-Everyone argued and there was a fight and we had to call the police.
++Everyone got along and there was a hug and we had to call a taxi.
+ 
+ Then at the end we agreed to be friends.

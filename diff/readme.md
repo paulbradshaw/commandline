@@ -14,3 +14,20 @@ To see what the differences are, you just need to write the `diff` command follo
 This will just show the results within Terminal. To save to a text file, add `>` and a name for the new file like so:
 
 `diff imrules1_2016.htm imrules1_2018.html > differences.txt`
+
+## Adding options for context
+
+[You can add options](https://www.geeksforgeeks.org/diff-command-linux-examples/) to specify how the results are shown.
+
+* `-c` will show the results in context
+* `-u` will show the results in a unified manner
+
+Try adding these with the v1.md and v2.md files in this folder:
+
+`diff v1.md v2.md -c > 1v2.txt`
+
+In this case the lines which are different are preceded by an exclamation mark to draw your attention.
+
+`diff v1.md v2.md -u > 1v2.txt`
+
+With this option a `+` and `-` sign is used in front of changed lines to indicate what is removed in the first named file and then what it is replaced by in the second.
