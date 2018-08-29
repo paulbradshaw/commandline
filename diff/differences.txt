@@ -1,0 +1,702 @@
+6c6
+< WB_wombat_Init('https://web.archive.org/web', '20161125024957', 'www.gov.uk');
+---
+> WB_wombat_Init('https://web.archive.org/web', '20180829152849', 'www.gov.uk');
+9c9
+< <script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app42.us.archive.org';v.server_ms=1200;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/static/js/wbhack.js?v=1533593143.0" charset="utf-8"></script>
+---
+> <script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app19.us.archive.org';v.server_ms=208;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/static/js/wbhack.js?v=1533593143.0" charset="utf-8"></script>
+18a19,34
+> <meta name="description" content="A collection of the current Immigration Rules.">
+> <meta name="govuk:taxon-slugs" content="entering-staying-uk,immigration-adviser-services,immigration-rules,permanent-stay-uk,rights-nationals-from-outside-eu-eea,travel-identity-documents-for-foreign-nationals">
+> <meta name="govuk:taxon-slug" content="entering-staying-uk">
+> <meta name="govuk:taxon-ids" content="ba3a9702-da22-487f-86c1-8334a730e559,6dc91505-fdbd-4b6b-9bd5-fef3dc8baf42,c64eb759-93ff-4bfd-86f2-16753fc1e062,fef7e737-6f1a-4ef4-b844-aa24b630ad03,7d0d99a7-ab3f-4581-a452-f04c2f598d2d,18c7918f-cde5-4e66-b5f4-cd15c33cc1cc">
+> <meta name="govuk:taxon-id" content="ba3a9702-da22-487f-86c1-8334a730e559">
+> <meta name="govuk:themes" content="entering-staying-uk">
+> <meta name="govuk:analytics:organisations" content="<D16>">
+> <meta name="govuk:content-has-history" content="true">
+> <meta name="govuk:content-id" content="87e2748f-2e9b-4681-8baa-778b6d326a8a">
+> <meta name="govuk:navigation-document-type" content="guidance">
+> <meta name="govuk:user-journey-stage" content="thing">
+> <meta name="govuk:schema-name" content="manual">
+> <meta name="govuk:publishing-application" content="manuals-publisher">
+> <meta name="govuk:format" content="manual">
+> <meta name="csrf-token" content="QPco+0o76Yv0jKi0yPfKCIvffQVD2q47z4wPAuQcePB0hc0XUlk40QsP8ZLl+F35ShrO+7aEQqge5UejcS6IrQ==">
+> <meta name="csrf-param" content="authenticity_token">
+22,30c38
+<     <!--[if gt IE 8]><!--><link href="https://web.archive.org/web/20161125024957cs_/https://assets.publishing.service.gov.uk/static/govuk-template-1875638511d35be82a4aeaa8d591b5f57b9d3819604feaf89b65f2812cf794ea.css" media="screen" rel="stylesheet">
+< <!--<![endif]-->
+<     <!--[if IE 6]><link href="https://assets.publishing.service.gov.uk/static/govuk-template-ie6-b4e746f94e865a9ee488a3ec929fcfeedb2267bf2fac1aeac9215bfc3d3b4a6a.css" media="screen" rel="stylesheet" /><![endif]-->
+<     <!--[if IE 7]><link href="https://assets.publishing.service.gov.uk/static/govuk-template-ie7-94d0308e53aaef4aedad5d6dc36b7a67a1c63e2a3da5b63f3a570be958810e12.css" media="screen" rel="stylesheet" /><![endif]-->
+<     <!--[if IE 8]><link href="https://assets.publishing.service.gov.uk/static/govuk-template-ie8-58ada30e1ac2d11845dee1121f95a666b999e5248bc456940063cc530b3f5344.css" media="screen" rel="stylesheet" /><![endif]-->
+<     <link href="https://web.archive.org/web/20161125024957cs_/https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css" media="print" rel="stylesheet">
+< 
+<     <!--[if IE 8]><link href="https://assets.publishing.service.gov.uk/static/fonts-ie8-f5e3c18a96ecb0f37246556a27330202d6e18feffa05a3b67825024609629ac8.css" media="all" rel="stylesheet" /><![endif]-->
+<     <!--[if gte IE 9]><!--><link href="https://web.archive.org/web/20161125024957cs_/https://assets.publishing.service.gov.uk/static/fonts-5ff8c53913434afd0072a480d7cfca67cace4c8d03f6ef96b78a4455728ce745.css" media="all" rel="stylesheet">
+---
+>     <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://web.archive.org/web/20180829152849cs_/https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css" crossorigin="anonymous" integrity="">
+32c40,53
+<     <!--[if lt IE 9]><script src="https://assets.publishing.service.gov.uk/static/ie-75db9d4df4993de5335d6e49013362743a78107245bcf6543337a0ecc0a95b41.js"></script><![endif]-->
+---
+>     <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie6-2c1bb089ee71d4d70a08ba94e4b363a99542c8feddf3aa979bc4f8962aed5e02.css" /><![endif]-->
+>     <!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie7-062e553ef49a9f884a3a1f885c8a18e829b6557046b075e1384f6092a60151d1.css" /><![endif]-->
+>     <!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie8-11027733d1abeac34c7bf14e37fea30366ad3a87cfd7f7a084de3a3b4b838412.css" /><![endif]-->
+>     <link rel="stylesheet" media="print" href="https://web.archive.org/web/20180829152849cs_/https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css" crossorigin="anonymous" integrity="">
+> 
+>     <link rel="stylesheet" media="all" href="https://web.archive.org/web/20180829152849cs_/https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css" crossorigin="anonymous" integrity="">
+>     <!--[if lt IE 9]><script src="https://assets.publishing.service.gov.uk/static/ie-a4524544a53d57a7e259b4bb966b9c32557c98c920b77e52d09304642b68401a.js" crossorigin="anonymous" integrity="sha256-pFJFRKU9V6fiWbS7lmucMlV8mMkgt35S0JMEZCtoQBo="></script><![endif]-->
+> 
+>     <link rel="shortcut icon" href="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+>     <link rel="mask-icon" href="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown-de738c3fcce8ce2a91b67e89787090dc24a5cda0275ab6b75f6226c5b9619d3d.svg" color="#0b0c0c">
+>     <link rel="apple-touch-icon" sizes="180x180" href="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-180x180-ea1cbb1cbbeddfff275dfa6e8e46b84cd530892df79dc4882a8f99b802b49a90.png">
+>     <link rel="apple-touch-icon" sizes="167x167" href="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-167x167-181e404a50c572923285fb83f0fbd78da6b4e38e3ce52f8e6b8e29da8586450a.png">
+>     <link rel="apple-touch-icon" sizes="152x152" href="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-152x152-02457fcdcee8d309276305af2233d41bfb8fd055e855727d355e61bce7ffa9bb.png">
+>     <link rel="apple-touch-icon" href="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-a318f305290c523aed80082456175b46c95350c0eeac93f42e78a71c7a55544e.png">
+34,39c55
+<     <link rel="shortcut icon" href="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+<     <link rel="mask-icon" href="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown-a0097118fe9226ce1ffde1ccfeb86c61be3607915046196c99f68b9548485ad3.svg" color="#0b0c0c">
+<     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-152x152-55dd2af7a53abb7dd14ba6a3c6c3fc786c57a074ba809f6dd767e186955a87e1.png">
+<     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-120x120-92580784afc35143f96b8cf5614e221427fdea444aeb13d912c879e884af7336.png">
+<     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-76x76-9b193f39cde53b92ba555efed856bcd103d6d1dc650919eb9f29dbe5f442cfb0.png">
+<     <link rel="apple-touch-icon-precomposed" href="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/apple-touch-icon-60x60-0af0a7cf886701647210f13b661e607b7223bc3221b6d275718a89af79b3e7b9.png">
+---
+>     <meta name="theme-color" content="#0b0c0c">
+42d57
+<     <meta property="og:image" content="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+44c59
+<       <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://web.archive.org/web/20161125024957cs_/https://assets.publishing.service.gov.uk/static/header-footer-only-29ff8649b07c320d312c009e88e50004665c890d4a9861c2b3b46cc2723c2a38.css">
+---
+>       <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://web.archive.org/web/20180829152849cs_/https://assets.publishing.service.gov.uk/static/core-layout-5c3d985d43c06c7c5efa157f99dcc22b3b62fcc9944669d4237fc2b78793baf2.css" crossorigin="anonymous" integrity="">
+46,48c61,63
+< <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/header-footer-only-ie6-97f444cfbd09c33f2ac24060977855e3a06b74ad1cc7e926f37a919b18b54039.css" /><script>var ieVersion = 6;</script><![endif]-->
+< <!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/header-footer-only-ie7-4a4667a5b8eef04dacf1182304054482927c00d06b74fc185dc5b70c6a8cdb76.css" /><script>var ieVersion = 7;</script><![endif]-->
+< <!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/header-footer-only-ie8-3191456ffd058d6400babc97382e00a60d7d2336bf6fbd6189132bf7ea37a479.css" /><script>var ieVersion = 8;</script><![endif]-->
+---
+> <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie6-eedd25aaef3dadbb4e173b879f7585bb6a7caa3045b715d98efb33d90b25cf76.css" /><script>var ieVersion = 6;</script><![endif]-->
+> <!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie7-e77ac1463efb750c324309de3d592a240e60b8fbaa7e258f332182244407ffa4.css" /><script>var ieVersion = 7;</script><![endif]-->
+> <!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/core-layout-ie8-29ec3d53129f0657e59d7dc2fc9f67e0219c721c4155f09bdeacc21bc3b3c94b.css" /><script>var ieVersion = 8;</script><![endif]-->
+50c65
+< <link rel="stylesheet" media="print" href="https://web.archive.org/web/20161125024957cs_/https://assets.publishing.service.gov.uk/static/header-footer-only-print-1c753fca6d62d1cc48669dab1730ab0ae06cbf7c9fa7b39e2af3031b88828d89.css">
+---
+> <link rel="stylesheet" media="print" href="https://web.archive.org/web/20180829152849cs_/https://assets.publishing.service.gov.uk/static/core-layout-print-9a2de3ce1590c8ca478a6f7edf5a2e4bad0c6291b1dd4a6e7ca85f653d9591b4.css" crossorigin="anonymous" integrity="">
+53,58c68,72
+<   <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://web.archive.org/web/20161125024957cs_/https://assets.publishing.service.gov.uk/manuals-frontend/application-b95863706b9b7e03d79fb89774b5b8dc.css">
+< <!--<![endif]--><link rel="stylesheet" media="print" href="https://web.archive.org/web/20161125024957cs_/https://assets.publishing.service.gov.uk/manuals-frontend/print-4465b789437ae8ff62d45f1c301a23bb.css">
+< <meta name="csrf-param" content="authenticity_token">
+< <meta name="csrf-token" content="yJaeGo06ympFwLjSwNu4HylBfC0+dOI3Ia3Jx4R3Yj0Ueh61Is8Se12g3kGxyS/q0TvFM7Dfu3yD8Uirah9Tfg==">
+< <meta name="description" content="A collection of the current Immigration Rules.">
+< <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/manuals-frontend/application-ie6-52de80c5e4b9f37ca312aa9af0ba2f63.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/manuals-frontend/application-ie7-52de80c5e4b9f37ca312aa9af0ba2f63.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/manuals-frontend/application-ie8-5b551f935bb1cd1022df6f16b9b2d245.css" /><script>var ieVersion = 8;</script><![endif]--><meta name="govuk:rendering-application" content="manuals-frontend">
+---
+> 
+>     <meta property="og:image" content="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+>   <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://web.archive.org/web/20180829152849cs_/https://assets.publishing.service.gov.uk/manuals-frontend/application-f467e370ca60214a4212baade1e6a8e42d9299bf9e17548c6cced72affa192e6.css">
+> <!--<![endif]--><link rel="stylesheet" media="print" href="https://web.archive.org/web/20180829152849cs_/https://assets.publishing.service.gov.uk/manuals-frontend/print-38956260f3d32c60820753451d3a884ab15a9a747c0f278ed3e9a6c6d50e08de.css">
+> <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/manuals-frontend/application-ie6-3dba868c71d5a10350b112db428ba298eee81eaa1afa32f028d7167ef7f98085.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/manuals-frontend/application-ie7-1fb585b873a6a22892f1c3ce28ca14b83ab9f0901462c63ec51608bddb4c4032.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/manuals-frontend/application-ie8-0096e90454f8bab830aab7f3ac8cde40bfcf54a8976d798ec9a55da7daceb5da.css" /><script>var ieVersion = 8;</script><![endif]--><meta name="govuk:rendering-application" content="manuals-frontend">
+93c107
+<              onclick="__wm.saveSnapshot('https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk', '20161125024957')"
+---
+>              onclick="__wm.saveSnapshot('https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk', '20180829152849')"
+110,111c124,125
+< 	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://web.archive.org/web/20161125024957/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk', '', 'height=400,width=600'); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+< 	<a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=https://web.archive.org/web/20161125024957/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk&amp;via=internetarchive', '', 'height=400,width=600'); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+---
+> 	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://web.archive.org/web/20180829152849/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk', '', 'height=400,width=600'); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+> 	<a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=https://web.archive.org/web/20180829152849/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk&amp;via=internetarchive', '', 'height=400,width=600'); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+118c132
+< 	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20161125024957" /><input type="submit" value="Go" /></form>
+---
+> 	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20180829152849" /><input type="submit" value="Go" /></form>
+125,127c139,141
+< 		  <td class="b" nowrap="nowrap">Oct</td>
+< 		  <td class="c" id="displayMonthEl" title="You are here: 02:49:57 Nov 25, 2016">NOV</td>
+< 		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20170310050037/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" title="10 Mar 2017"><strong>Mar</strong></a></td>
+---
+> 		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170614181650/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" title="14 Jun 2017"><strong>Jun</strong></a></td>
+> 		  <td class="c" id="displayMonthEl" title="You are here: 15:28:49 Aug 29, 2018">AUG</td>
+> 		  <td class="f" nowrap="nowrap">Sep</td>
+131,133c145,147
+< 		  <td class="b" nowrap="nowrap"><img src="/static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+< 		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 02:49:57 Nov 25, 2016">25</td>
+< 		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20170310050037/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" title="05:00:37 Mar 10, 2017"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+---
+> 		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170614181650/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" title="18:16:50 Jun 14, 2017"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+> 		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 15:28:49 Aug 29, 2018">29</td>
+> 		  <td class="f" nowrap="nowrap"><img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0" /></td>
+137,139c151,153
+< 		  <td class="b" nowrap="nowrap">2015</td>
+< 		  <td class="c" id="displayYearEl" title="You are here: 02:49:57 Nov 25, 2016">2016</td>
+< 		  <td class="f" nowrap="nowrap">2017</td>
+---
+> 		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20170614181650/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" title="14 Jun 2017"><strong>2017</strong></a></td>
+> 		  <td class="c" id="displayYearEl" title="You are here: 15:28:49 Aug 29, 2018">2018</td>
+> 		  <td class="f" nowrap="nowrap">2019</td>
+148,149c162,163
+< 	      	      <a class="t" href="/web/20161125024957*/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" title="See a list of every capture for this URL">5 captures</a>
+< 	      <div class="r" title="Timespan for captures of this URL">25 Nov 2016 - 14 Jun 2017</div>
+---
+> 	      	      <a class="t" href="/web/20180829152849*/https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk" title="See a list of every capture for this URL">6 captures</a>
+> 	      <div class="r" title="Timespan for captures of this URL">25 Nov 2016 - 29 Aug 2018</div>
+169,180d182
+<             <div style="display:inline-block;vertical-align:top;width:50%;">
+< 			<span class="c-logo" style="background-image:url(https://archive.org/services/img/webwidecrawl);"></span>
+< 		Organization: <a style="color:#33f;" href="https://archive.org/details/webwidecrawl" target="_new"><span class="wm-title">Internet Archive</span></a>
+< 		<div style="max-height:75px;overflow:hidden;position:relative;">
+< 	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+< 	  The Internet Archive discovers and captures web pages through many different web crawls.
+< 
+< At any given time several distinct crawls are running, some for months, and some every day or longer.
+< 
+< View the web archive through the <a href="http://archive.org/web/web.php">Wayback Machine</a>.
+< 	</div>
+< 	      </div>
+182,183c184,185
+< 			<span class="c-logo" style="background-image:url(https://archive.org/services/img/wide00015)"></span>
+< 		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/wide00015" target="_new"><span class="wm-title">Wide Crawl Number 15: Started Oct 1st, 2016 - Ended May 8th, 2017</span></a></div>
+---
+> 			<span class="c-logo" style="background-image:url(https://archive.org/services/img/liveweb)"></span>
+> 		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/liveweb" target="_new"><span class="wm-title">Live Web Proxy Crawls</span></a></div>
+186c188,191
+< 	  Web wide crawl.
+---
+> 	  Content crawled via the <a href="http://archive.org/web/web.php">Wayback Machine</a> Live Proxy mostly by the Save Page Now feature on web.archive.org.
+> <br /><br />
+> Liveweb proxy is a component of Internet Archive�s wayback machine project. The liveweb proxy captures the content of a web page in real time, archives it into a ARC or WARC file and returns the ARC/WARC record back to the wayback machine to process. The recorded ARC/WARC file becomes part of the wayback machine in due course of time.
+> <br /><br />
+196c201
+< __wm.bt(575,27,25,2,"web","https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk","2016-11-25",1996);
+---
+> __wm.bt(575,27,25,2,"web","https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk","2018-08-29",1996);
+210c215
+<         <p>GOV.UK uses cookies to make the site simpler. <a href="https://web.archive.org/web/20161125024957/https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+---
+>         <p>GOV.UK uses cookies to make the site simpler. <a href="https://web.archive.org/web/20180829152849/https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+217,218c222,223
+<             <a href="https://web.archive.org/web/20161125024957/https://www.gov.uk/" title="Go to the GOV.UK homepage" id="logo" class="content">
+<               <img src="https://web.archive.org/web/20161125024957im_/https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown_invert_trans-203e1db49d3eff430d7dc450ce723c1002542fe1d2bce661b6d8571f14c1043c.png" width="36" height="32" alt=""> GOV.UK
+---
+>             <a href="https://web.archive.org/web/20180829152849/https://www.gov.uk/" title="Go to the GOV.UK homepage" id="logo" class="content">
+>               <img src="https://web.archive.org/web/20180829152849im_/https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown_invert_trans-203e1db49d3eff430d7dc450ce723c1002542fe1d2bce661b6d8571f14c1043c.png" width="36" height="32" alt=""> GOV.UK
+235,237c240
+<         <div id="global-breadcrumb" class="header-context"></div>
+< 
+<   <div id="wrapper">
+---
+>       <div id="wrapper">
+239c242
+<       <div id="manuals-frontend" class="inner-block">
+---
+>       <div id="manuals-frontend" class="manuals-frontend-body inner-block">
+240a244,267
+> 
+> 
+> 
+> <div class="gem-c-contextual-breadcrumbs">
+>     <!-- Rendering taxonomy breadcrumbs because the page is tagged to live taxons -->
+>     
+> 
+> 
+> <div class="gem-c-breadcrumbs gem-c-breadcrumbs--collapse-on-mobile" data-module="track-click">
+>   <ol>
+> 
+>     <li class="gem-c-breadcrumbs__item ">
+>         <a data-track-category="breadcrumbClicked" data-track-action="1" data-track-label="/" data-track-options="{&quot;dimension28&quot;:&quot;2&quot;,&quot;dimension29&quot;:&quot;Home&quot;}" class="" aria-current="false" href="/web/20180829152849/https://www.gov.uk/">Home</a>
+>     </li>
+> 
+>     <li class="gem-c-breadcrumbs__item gem-c-breadcrumbs--parent">
+>         <a data-track-category="breadcrumbClicked" data-track-action="2" data-track-label="/entering-staying-uk" data-track-options="{&quot;dimension28&quot;:&quot;2&quot;,&quot;dimension29&quot;:&quot;Entering and staying in the UK&quot;}" class="" aria-current="false" href="/web/20180829152849/https://www.gov.uk/entering-staying-uk">Entering and staying in the UK</a>
+>     </li>
+>   </ol>
+> </div>
+> 
+> </div>
+> 
+> 
+241a269
+> 
+245,252c273,290
+<       <dl>
+<         <dt>From</dt>
+<         <dd><a href="https://web.archive.org/web/20161125024957/https://www.gov.uk/government/organisations/home-office">Home Office</a></dd>
+<         <dt>Updated</dt>
+<         <dd>
+< <time datetime="2016-11-24">24 November 2016</time>, <a href="/web/20161125024957/https://www.gov.uk/guidance/immigration-rules/updates">see all updates</a>
+< </dd>
+<       </dl>
+---
+>     <div class="gem-c-metadata" data-module="gem-toggle">
+>   <dl data-module="track-click">
+>       <dt class="gem-c-metadata__term">From:</dt>
+>       <dd class="gem-c-metadata__definition">
+>           <a href="https://web.archive.org/web/20180829152849/https://www.gov.uk/government/organisations/home-office">Home Office</a>
+> 
+>       </dd>
+>       <dt class="gem-c-metadata__term">Published:</dt>
+>       <dd class="gem-c-metadata__definition"><time datetime="2016-02-25">25 February 2016</time></dd>
+>           <dt class="gem-c-metadata__term">Updated:</dt>
+>           <dd class="gem-c-metadata__definition">
+>               <time datetime="2018-08-28">28 August 2018</time>, <a href="/web/20180829152849/https://www.gov.uk/guidance/immigration-rules/updates">see all updates</a>
+> 
+>           </dd>
+>   </dl>
+> </div>
+> 
+> 
+254c292
+<       <form action="/web/20161125024957/https://www.gov.uk/search">
+---
+>       <form action="/web/20180829152849/https://www.gov.uk/search">
+257c295
+<         <input id="search-box" type="text" name="q">
+---
+>         <input id="search-box" class="in-manual-search-box" type="text" name="q">
+265c303
+<         <a class="feedback" href="https://web.archive.org/web/20161125024957/https://www.gov.uk/contact/govuk">Give feedback about this page</a>
+---
+>         <a class="feedback" href="https://web.archive.org/web/20180829152849/https://www.gov.uk/contact/govuk">Give feedback about this page</a>
+269a308
+> 
+271c310
+<     <li><a href="/web/20161125024957/https://www.gov.uk/guidance/immigration-rules">Contents</a></li>
+---
+>     <li><a href="/web/20180829152849/https://www.gov.uk/guidance/immigration-rules">Contents</a></li>
+279c318
+<     <p class="summary">General provisions regarding entry clearance, leave to enter or remain in the United Kingdom (paragraphs 7 to 39D).</p>
+---
+>     <p class="summary">General provisions regarding entry clearance, leave to enter or remain in the United Kingdom (paragraphs 7 to 39E).</p>
+282,283c321,323
+<             <div class="govuk-govspeak rich-govspeak">
+<   <h2 id="pt1stay">Leave to enter the United Kingdom</h2>
+---
+>             
+> <div class="gem-c-govspeak govuk-govspeak ">
+>       <h2 id="pt1stay">Leave to enter the United Kingdom</h2>
+409,410c449
+<   <li>18. A person seeking leave to enter the United Kingdom as a returning resident may be 
+< admitted for settlement provided the Immigration Officer is satisfied that the person concerned:
+---
+>   <li>18. A person may resume their residence in the UK provided the Immigration Officer is satisfied that the person concerned:
+418,422c457,461
+<   <li>18A. Those who qualify for admission to the United Kingdom as returning residents in accordance with paragraph 18 do not need a visa to enter the UK.</li>
+<   <li>19. A person who does not benefit from the preceding paragraph by reason only of having been away from the United Kingdom too long may nevertheless be admitted as a returning resident if, for example, he has lived here for most of his life.</li>
+<   <li>19A. Sub paragraphs (ii) and (iii) of paragraph 18 shall not apply where a person who has indefinite leave to enter or remain in the United Kingdom accompanies on an overseas posting, a spouse, civil partner, unmarried partner or same-sex partner who is: </li>
+<   <li>a) a member of HM Forces serving overseas; or </li>
+<   <li>b) a British citizen or is settled in the UK and 
+---
+>   <li>18A. Those who qualify to resume their residence in accordance with paragraph 18 do not need a visa to enter the UK.</li>
+>   <li>19. A person who does not benefit from the preceding paragraph by reason only of having been absent from the United Kingdom for more than two consecutive years, must have applied for, and been granted indefinite leave to enter by way of entry clearance if, he can demonstrate he has strong ties to the United Kingdom and intends to make the United Kingdom his permanent home.</li>
+>   <li>19A. Sub paragraphs (ii) and (iii) of paragraph 18 shall not apply where a person who has indefinite leave to enter or remain in the United Kingdom accompanies on an overseas posting a partner, parent, a spouse, civil partner, unmarried partner or same-sex partner who is:</li>
+>   <li>a) a member of HM Forces serving overseas; or</li>
+>   <li>b) a British citizen or is settled in the UK and
+425,427c464,466
+<       <li>(ii) a comparable United Kingdom based staff member of the British Council;</li>
+<       <li>( iii) a staff member of the Department for International Development; or</li>
+<       <li>(iv) a Home Office employee.</li>
+---
+>       <li>(ii) a comparable United Kingdom based permanent staff member of the British Council;</li>
+>       <li>(iii) a permanent staff member of the Department for International Development; or</li>
+>       <li>(iv) a permanent Home Office employee.</li>
+473c512
+<   <li>24.The following must produce to the Immigration Officer a valid passport or other identity document endorsed with a United Kingdom entry clearance issued to him for the purpose for which he seeks entry:
+---
+>   <li>24. The following:
+475,482c514,516
+<       <li>(i)	a visa national; </li>
+<       <li>(ii) a non visa national who is:
+<         <ol>
+<           <li>(a) not a British national; and</li>
+<           <li>(b) seeking entry for a period exceeding six months or for a purpose for which prior entry clearance is required under these Rules;</li>
+<         </ol>
+<       </li>
+<       <li>(iii) a British national without the right of abode who is seeking entry for a purpose for prior entry clearance is required under these Rules.</li>
+---
+>       <li>(i)	a visa national;</li>
+>       <li>(ii) a non visa national not a British national and is seeking entry for a period exceeding six months, or for a purpose for which prior entry clearance is required under these Rules;</li>
+>       <li>(iii) a British national without the right of abode who is seeking entry for a purpose for which prior entry clearance is required under these Rules.</li>
+487c521,527
+< <p>Such a person will be refused leave to enter if he has no such current entry clearance. Any other person who wishes to ascertain in advance whether he is eligible for admission to the United Kingdom may apply for the issue of an entry clearance.</p>
+---
+> <ol class="legislative-list">
+>   <li>must either:
+>     <ol>
+>       <li>(i) produce to the Immigration Officer a valid passport or other identity document endorsed with a United Kingdom entry clearance, issued to him for the purpose for which he seeks entry, which is still in force,</li>
+>     </ol>
+>   </li>
+> </ol>
+490c530,540
+<   <li>25. Entry clearance takes the form of a visa (for visa nationals) or an entry certificate (for non visa nationals). These documents are to be taken as evidence of the holder’s eligibility for entry into the United Kingdom, and accordingly accepted as “entry clearances” within the meaning of the Immigration Act 1971.</li>
+---
+>   <li>or:
+>     <ol>
+>       <li>(ii) where he has been granted a United Kingdom entry clearance which was issued to him in electronic form for the purpose for which he seeks entry and which is still in force, produce to the Immigration Officer a valid passport or other identity document.</li>
+>     </ol>
+>   </li>
+> </ol>
+> 
+> <p>Such a person will be refused leave to enter if he has no such current entry clearance.  Any other person who wishes to ascertain in advance whether he is eligible for admission to the United Kingdom may apply for the issue of an entry clearance.</p>
+> 
+> <ol class="legislative-list">
+>   <li>25. Entry clearance takes the form of a visa (for visa nationals) or an entry certificate (for non visa nationals). A visa or an entry certificate may be issued in electronic form. These documents are to be taken as evidence of the holder’s eligibility for entry into the United Kingdom, and accordingly accepted as “entry clearances” within the meaning of the Immigration Act 1971.</li>
+548c598
+<   <li>34. An application for leave to remain is valid when the requirements of this paragraph are met.
+---
+>   <li>34. An application for leave to remain must be made in accordance with sub-paragraphs (1) to(10) below.
+587c637
+<           <li>(ii) on-line and the applicant chooses to or is subsequently required to attend an appointment at a place specified by the Home Office as part of the application process, the applicant must make and attend the appointment within 45 days of submission of the on-line application.</li>
+---
+>           <li>(ii) on-line and the applicant chooses to or is subsequently required to attend an appointment at a place specified by the Home Office as part of the application process, the applicant must make and attend the appointment within 45 business days of submission of the on-line application.</li>
+604c654
+<       <li>(4) The Secretary of State may exercise discretion to treat an invalid application as valid as long as the requirements of paragraph 34(3), (6) and (10) have been met.</li>
+---
+>       <li>(4) The Secretary of State may exercise discretion to treat an invalid application as valid as long as the requirements of paragraph 34(3), (5) and (10) have been met.</li>
+609a660,661
+> <h3 id="multiple-applications">Multiple Applications</h3>
+> 
+611c663,670
+<   <li>34BB. DELETED</li>
+---
+>   <li>34BB (1) An applicant may only have one outstanding application for leave to remain at a time.
+>     <ol>
+>       <li>(2) If an application for leave to remain is submitted in circumstances where a previous application for leave to remain has not been decided, it will be treated as a variation of the previous application.</li>
+>       <li>(3) Where more than one application for leave to remain is submitted on the same day then subject to sub-paragraph (4), each application will be invalid and will not be considered.</li>
+>       <li>(4)  The Secretary of State may give the applicant a single opportunity to withdraw all but one of the applications within 10 working days of the date on which the notification was sent. If all but one of the applications are not withdrawn by the specified date each application will be invalid and will not be considered.</li>
+>       <li>(5) Notice of invalidity will be given in writing and served in accordance with Appendix SN of these Rules.</li>
+>     </ol>
+>   </li>
+618,634c677
+< </ol>
+< 
+< <ol class="legislative-list">
+<   <li>34D. Where the main applicant wishes to include applications or claims by any members of his family as his dependants on his own application form, the applications or claims of the dependants must meet the following requirements or they will be invalid and will not be 
+< considered:
+<     <ol>
+<       <li>(i) the application form must expressly permit the applications or claims of dependants to be included, and </li>
+<       <li>(ii) such dependants must be:
+<         <ol>
+<           <li>(a) the spouse, civil partner, unmarried or same-sex partner of the main applicant; and/or</li>
+<           <li>(b) children of the main applicant aged under 18; and/or</li>
+<           <li>(c) where permitted by the Rules for the immigration category under which the applicant 
+< wishes to apply, any dependants of the main applicant aged 18 or over.</li>
+<         </ol>
+<       </li>
+<     </ol>
+<   </li>
+---
+>   <li>34D. DELETED</li>
+685c728
+<   <li>34M. An application for administrative review must be made in accordance with the requirements set out in paragraphs 34N to 34S. If it is not it will be invalid and will not be considered. </li>
+---
+>   <li>34M. An application for administrative review must be made in accordance with the requirements set out in paragraphs 34N to 34S. If it is not it will be invalid and will not be considered.</li>
+687c730
+<   <li>(2) A further application for administrative review in respect of an eligible decision may be made where the outcome of the administrative review is as set out in paragraph AR2.2(d) of Appendix AR of these Rules. </li>
+---
+>   <li>(2) A further application for administrative review in respect of an eligible decision may be made where the outcome of the administrative review is as set out in paragraph AR2.2(d) of Appendix AR of these Rules.</li>
+700c743
+<       <li>(c) when the administrative review is in relation to an eligible decision on an application for entry clearance, as defined in paragraph AR5.2 of Appendix AR, while the applicant is outside the UK. </li>
+---
+>       <li>(c) when the administrative review is in relation to an eligible decision on an application for entry clearance, as defined in paragraph AR5.2 of Appendix AR, while the applicant is outside the UK.</li>
+732c775
+<       <li>“the relevant online application process” means the application process accessible via the gov.uk website and identified there as relevant for applications for administrative review; and   </li>
+---
+>       <li>“the relevant online application process” means the application process accessible via the gov.uk website and identified there as relevant for applications for administrative review; and</li>
+866c909
+<       <li>(b) If the decision-maker has reasonable cause to doubt (on examination or interview or on any other basis) that any evidence submitted by or on behalf of an applicant for the purposes of satisfying the requirements of Appendix KoLL of these Rules was genuinely obtained, that evidence may be discounted for the purposes of the application. </li>
+---
+>       <li>(b) If the decision-maker has reasonable cause to doubt (on examination or interview or on any other basis) that any evidence submitted by or on behalf of an applicant for the purposes of satisfying the requirements of Appendix KoLL of these Rules was genuinely obtained, that evidence may be discounted for the purposes of the application.</li>
+884c927
+< <h2 id="exceptions-for-overstayers">Exceptions for overstayers</h2>
+---
+> <h2 id="pt1stay">Exceptions for overstayers</h2>
+892c935
+<           <li>(a) following the refusal of a previous application for leave which was made in-time or to which sub-paragraph (1) applied; and </li>
+---
+>           <li>(a) following the refusal of a previous application for leave which was made in-time; and</li>
+897c940
+<               <li>(iii) the expiry of the time-limit for making an in-time application for administrative review or appeal (where applicable); or </li>
+---
+>               <li>(iii) the expiry of the time-limit for making an in-time application for administrative review or appeal (where applicable); or</li>
+913a957
+> 
+919,925c963,996
+<   <div class="report-a-problem-container">
+<   <div class="report-a-problem-inner">
+<     <div class="report-a-problem-content">
+<       <h2>Help us improve GOV.UK</h2>
+<       <form accept-charset="UTF-8" action="/web/20161125024957/https://www.gov.uk/contact/govuk/problem_reports" method="post">
+<         <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+<         <input id="url" name="url" type="hidden" value="https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk">
+---
+>     
+> <div class="gem-c-feedback gem-c-feedback--top-margin" data-module="feedback">
+>   <div class="gem-c-feedback__prompt gem-c-feedback__js-show js-prompt" tabindex="-1">
+>     <div class="js-prompt-questions">
+>       <h2 class="gem-c-feedback__prompt-question">Is this page useful?</h2>
+> 
+>       <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--useful js-page-is-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffYesClick" href="/web/20180829152849/https://www.gov.uk/contact/govuk">
+>           Yes <span class="visually-hidden">this page is useful</span>
+> </a>
+>       <a class="gem-c-feedback__prompt-link js-toggle-form js-page-is-not-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffNoClick" aria-controls="page-is-not-useful" aria-expanded="false" role="button" href="/web/20180829152849/https://www.gov.uk/contact/govuk">
+>           No <span class="visually-hidden">this page is not useful</span>
+> </a>
+>       <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--wrong js-toggle-form js-something-is-wrong" data-track-category="Onsite Feedback" data-track-action="GOV.UK Open Form" aria-controls="something-is-wrong" aria-expanded="false" role="button" href="/web/20180829152849/https://www.gov.uk/contact/govuk">
+>           Is there anything wrong with this page?
+> </a>    </div>
+> 
+>     <div class="gem-c-feedback__prompt-success js-prompt-success js-hidden" tabindex="-1">
+>       Thank you for your feedback
+>     </div>
+>   </div>
+> 
+>   <form action="/web/20180829152849/https://www.gov.uk/contact/govuk/problem_reports" id="something-is-wrong" class="gem-c-feedback__form js-feedback-form js-hidden" data-track-category="Onsite Feedback" data-track-action="GOV.UK Send Form" method="post">
+>     <a href="#" class="gem-c-feedback__close gem-c-feedback__js-show js-close-form" data-track-category="Onsite Feedback" data-track-action="GOV.UK Close Form" aria-controls="something-is-wrong" aria-expanded="true" role="button">Close</a>
+> 
+>     <div class="gem-c-feedback__grid-row">
+>       <div class="gem-c-feedback__column-two-thirds">
+>         <div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-hidden js-errors" tabindex="-1"></div>
+> 
+>         <input type="hidden" name="url" value="https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk">
+>         <input type="hidden" name="user_agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36">
+> 
+>         <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+>         <p id="feedback_explanation" class="gem-c-feedback__form-paragraph">Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+> 
+927c998,1009
+<           <input id="source" name="source" type="hidden" value="">
+---
+> <div class="govuk-form-group">
+>     
+> <label for="input-98a01f5a" class="gem-c-label govuk-label ">
+>   What were you doing?
+> </label>
+> 
+> 
+> 
+> 
+>   <input type="text" name="what_doing" id="input-98a01f5a" class="gem-c-input govuk-input" aria-describedby="feedback_explanation">
+> </div>
+> 
+928a1011,1022
+> <div class="govuk-form-group">
+>     
+> <label for="input-0fd0f014" class="gem-c-label govuk-label ">
+>   What went wrong?
+> </label>
+> 
+> 
+> 
+> 
+>   <input type="text" name="what_wrong" id="input-0fd0f014" class="gem-c-input govuk-input">
+> </div>
+> 
+930c1024,1047
+<           <input id="page_owner" name="page_owner" type="hidden" value="">
+---
+>   <button class="gem-c-button govuk-button" type="submit">Send</button>
+> 
+> 
+>       </div>
+>     </div>
+>   </form>
+> 
+>   <form action="/web/20180829152849/https://www.gov.uk/contact/govuk/email-survey-signup" id="page-is-not-useful" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form js-hidden" data-track-category="yesNoFeedbackForm" data-track-action="Send Form" method="post">
+>     <a href="#" class="gem-c-feedback__close js-close-form" data-track-category="yesNoFeedbackForm" data-track-action="ffFormClose" aria-controls="page-is-not-useful" aria-expanded="true" role="button">Close</a>
+> 
+>     <div class="gem-c-feedback__grid-row">
+>       <div class="gem-c-feedback__column-two-thirds">
+>         <div class="gem-c-feedback__error-summary js-hidden js-errors" tabindex="-1"></div>
+> 
+>         <input type="hidden" name="url" value="https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk">
+>         <input type="hidden" name="user_agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36">
+> 
+>         <input name="email_survey_signup[survey_id]" type="hidden" value="footer_satisfaction_survey">
+>         <input name="email_survey_signup[survey_source]" type="hidden" value="https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk">
+>         <input name="email_survey_signup[ga_client_id]" type="hidden" value="1627485790.1515403243">
+> 
+>         <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+>         <p id="survey_explanation" class="gem-c-feedback__form-paragraph">To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.</p>
+> 
+931a1049,1053
+> <div class="govuk-form-group">
+>     
+> <label for="input-29c2cc00" class="gem-c-label govuk-label ">
+>   Email address
+> </label>
+933d1054
+<         <p>Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+935,936d1055
+<         <label for="what_doing">What you were doing</label>
+<         <input id="what_doing" name="what_doing" type="text">
+938,939d1056
+<         <label for="what_wrong">What went wrong</label>
+<         <input id="what_wrong" name="what_wrong" type="text">
+941,946c1058
+<         <div class="button-wrapper">
+<           <button name="commit" type="submit" class="button">Send</button>
+<         </div>
+<       </form>
+<     </div>
+<   </div>
+---
+>   <input type="email" name="email_survey_signup[email_address]" id="input-29c2cc00" class="gem-c-input govuk-input" aria-describedby="survey_explanation">
+947a1060,1069
+> 
+>         
+>   <button class="gem-c-button govuk-button" type="submit">Send me the survey</button>
+> 
+> 
+>         <a href="https://web.archive.org/web/20180829152849/https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=/guidance/immigration-rules/immigration-rules-part-1-leave-to-enter-or-stay-in-the-uk&amp;gcl=1627485790.1515403243" class="gem-c-feedback__email-link" id="take-survey" target="_blank" rel="noopener noreferrer">Don’t have an email address?</a>
+>       </div>
+>     </div>
+>   </form>
+> 
+949a1072,1073
+>   </div>
+> 
+954,978c1078,1102
+<           <div class="footer-categories">
+<     <div class="footer-explore">
+<       <h2>Services and information</h2>
+< 
+<       <ul>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/benefits">Benefits</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/births-deaths-marriages">Births, deaths, marriages and care</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/business">Business and self-employed</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/childcare-parenting">Childcare and parenting</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/citizenship">Citizenship and living in the UK</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/justice">Crime, justice and the law</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/disabilities">Disabled people</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/driving">Driving and transport</a></li>
+<       </ul>
+<       <ul>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/education">Education and learning</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/employing-people">Employing people</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/environment-countryside">Environment and countryside</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/housing-local-services">Housing and local services</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/tax">Money and tax</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/abroad">Passports, travel and living abroad</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/visas-immigration">Visas and immigration</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/browse/working">Working, jobs and pensions</a></li>
+<       </ul>
+<     </div>
+---
+>             <div class="footer-categories">
+>       <div class="footer-explore">
+>         <h2>Services and information</h2>
+> 
+>         <ul>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/benefits">Benefits</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/births-deaths-marriages">Births, deaths, marriages and care</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/business">Business and self-employed</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/childcare-parenting">Childcare and parenting</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/citizenship">Citizenship and living in the UK</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/justice">Crime, justice and the law</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/disabilities">Disabled people</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/driving">Driving and transport</a></li>
+>         </ul>
+>         <ul>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/education">Education and learning</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/employing-people">Employing people</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/environment-countryside">Environment and countryside</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/housing-local-services">Housing and local services</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/tax">Money and tax</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/abroad">Passports, travel and living abroad</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/visas-immigration">Visas and immigration</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/browse/working">Working, jobs and pensions</a></li>
+>         </ul>
+>       </div>
+980,981c1104,1105
+<     <div class="footer-inside-government">
+<       <h2>Departments and policy</h2>
+---
+>       <div class="footer-inside-government">
+>         <h2>Departments and policy</h2>
+983,990c1107,1116
+<       <ul>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/government/how-government-works">How government works</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/government/organisations">Departments</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/government/world">Worldwide</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/government/policies">Policies</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/government/publications">Publications</a></li>
+<         <li><a href="/web/20161125024957/https://www.gov.uk/government/announcements">Announcements</a></li>
+<       </ul>
+---
+>         <ul>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/government/how-government-works">How government works</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/government/organisations">Departments</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/world">Worldwide</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/government/policies">Policies</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/government/publications">Publications</a></li>
+>           <li><a href="/web/20180829152849/https://www.gov.uk/government/announcements">Announcements</a></li>
+>         </ul>
+>       </div>
+>       <hr>
+992,993d1117
+<     <hr>
+<   </div>
+1000,1005c1124,1129
+<   <li><a href="/web/20161125024957/https://www.gov.uk/help">Help</a></li>
+<   <li><a href="/web/20161125024957/https://www.gov.uk/help/cookies">Cookies</a></li>
+<   <li><a href="/web/20161125024957/https://www.gov.uk/contact">Contact</a></li>
+<   <li><a href="/web/20161125024957/https://www.gov.uk/help/terms-conditions">Terms and conditions</a></li>
+<   <li><a href="/web/20161125024957/https://www.gov.uk/cymraeg" lang="cy" hreflang="cy">Rhestr o Wasanaethau Cymraeg</a></li>
+<   <li>Built by the <a href="https://web.archive.org/web/20161125024957/https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>
+---
+>   <li><a href="/web/20180829152849/https://www.gov.uk/help">Help</a></li>
+>   <li><a href="/web/20180829152849/https://www.gov.uk/help/cookies">Cookies</a></li>
+>   <li><a href="/web/20180829152849/https://www.gov.uk/contact">Contact</a></li>
+>   <li><a href="/web/20180829152849/https://www.gov.uk/help/terms-conditions">Terms and conditions</a></li>
+>   <li><a href="/web/20180829152849/https://www.gov.uk/cymraeg" lang="cy" hreflang="cy">Rhestr o Wasanaethau Cymraeg</a></li>
+>   <li>Built by the <a href="https://web.archive.org/web/20180829152849/https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>
+1012,1013c1136,1137
+<               <p class="logo"><a href="https://web.archive.org/web/20161125024957/https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+<                 <p>All content is available under the <a href="https://web.archive.org/web/20161125024957/https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+---
+>               <p class="logo"><a href="https://web.archive.org/web/20180829152849/https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+>                 <p>All content is available under the <a href="https://web.archive.org/web/20180829152849/https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+1018c1142
+<             <a href="https://web.archive.org/web/20161125024957/http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">© Crown copyright</a>
+---
+>             <a href="https://web.archive.org/web/20180829152849/https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+1026c1150
+<     <script src="https://web.archive.org/web/20161125024957js_/https://assets.publishing.service.gov.uk/static/govuk-template-c4f303154d2a238bdda4d5cf1ebd8d4487822e4cbc3e4c83e743da869443ce72.js"></script>
+---
+>     <script src="https://web.archive.org/web/20180829152849js_/https://assets.publishing.service.gov.uk/static/govuk-template-ae4c5d21c0a7cb5bc8926a9f491de4e410244403f66c72997210c281efb92d4f.js" crossorigin="anonymous" integrity=""></script>
+1028,1029c1152,1154
+<       <script src="https://web.archive.org/web/20161125024957js_/https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.11.3-c40d54aaf7339842749de8469b5b8915b886b5e67cd218d48a780cc2f2471853.js"></script>
+< <script src="https://web.archive.org/web/20161125024957js_/https://assets.publishing.service.gov.uk/static/header-footer-only-032ba1d0b69e3af1c7453b1c2c071db02526d80c7d671b56d8a7c2fd6bca0a3d.js"></script>
+---
+>       <script src="https://web.archive.org/web/20180829152849js_/https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-f0bf7c5c0d22379f9911e96650480bd31caca94340a67034367514ccdfc6a5e0.js" crossorigin="anonymous" integrity=""></script>
+> <script src="https://web.archive.org/web/20180829152849js_/https://assets.publishing.service.gov.uk/static/header-footer-only-91f5443085ae0bf29cd1defe1bdda34df18e2622d3aacab5ae2987a1f40fe557.js" crossorigin="anonymous" integrity=""></script>
+> <script src="https://web.archive.org/web/20180829152849js_/https://assets.publishing.service.gov.uk/static/surveys-7d07ebebb7b98dc602a919b67a7762b347254c788fd984586b42da986420dfb6.js" crossorigin="anonymous" integrity=""></script>
+1034c1159,1161
+<   <script src="https://web.archive.org/web/20161125024957js_/https://assets.publishing.service.gov.uk/manuals-frontend/application-7bd817c59b2203bdfe469816f5b29f56.js"></script>
+---
+>   <script src="https://web.archive.org/web/20180829152849js_/https://assets.publishing.service.gov.uk/manuals-frontend/application-4853fa752911c628c8aaffdf0038b9138fb2cb9ad68c094b8fda19f338fa0e5d.js"></script><script type="application/ld+json">
+>   {"@context":"https://web.archive.org/web/20180829152849/http://schema.org/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https://web.archive.org/web/20180829152849/https://www.gov.uk/"}},{"@type":"ListItem","position":2,"item":{"name":"Entering and staying in the UK","@id":"https://web.archive.org/web/20180829152849/https://www.gov.uk/entering-staying-uk"}}]}
+> </script>
+1038,1039c1165,1166
+<      FILE ARCHIVED ON 02:49:57 Nov 25, 2016 AND RETRIEVED FROM THE
+<      INTERNET ARCHIVE ON 15:22:34 Aug 29, 2018.
+---
+>      FILE ARCHIVED ON 15:28:49 Aug 29, 2018 AND RETRIEVED FROM THE
+>      INTERNET ARCHIVE ON 15:28:54 Aug 29, 2018.
+1047c1174
+<   LoadShardBlock: 395.292 (3)
+---
+>   LoadShardBlock: 129.708 (3)
+1049,1056c1176,1182
+<   captures_list: 422.644
+<   CDXLines.iter: 18.072 (3)
+<   PetaboxLoader3.datanode: 142.843 (4)
+<   exclusion.robots: 0.469
+<   exclusion.robots.policy: 0.447
+<   RedisCDXSource: 4.41
+<   PetaboxLoader3.resolve: 971.41 (2)
+<   load_resource: 750.024
+---
+>   captures_list: 149.556
+>   CDXLines.iter: 14.662 (3)
+>   PetaboxLoader3.datanode: 59.428 (3)
+>   exclusion.robots: 0.556
+>   exclusion.robots.policy: 0.545
+>   RedisCDXSource: 1.127
+>   load_resource: 22.478
