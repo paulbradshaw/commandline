@@ -1,0 +1,4 @@
+"0","wmexes <- subset(exesdata, exesdata$westmids = TRUE)
+"
+"2","Error: unexpected '=' in ""wmexes <- subset(exesdata, exesdata$westmids =""
+"
