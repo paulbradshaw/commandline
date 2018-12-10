@@ -98,6 +98,12 @@ I've [written about that here](https://github.com/paulbradshaw/commandline/blob/
 
 `curl` is a very useful command for downloading files. Used on its own it will just show the contents of a URL within Terminal itself, but when combined with `-O` it will save the file at that URL to your computer. I've written some [tips and ideas for using curl here](https://github.com/paulbradshaw/commandline/blob/master/curlscraping.md)
 
+## `wget` for downloading entire websites
+
+[From MakeUseOf](https://www.makeuseof.com/tag/how-do-i-download-an-entire-website-for-offline-reading/)
+
+> "Wget is a command-line utility that can retrieve all kinds of files over the HTTP and FTP protocols. Since websites are served through HTTP and most web media files are accessible through HTTP or FTP, this makes Wget an excellent tool for ripping websites."
+
 ## Converting or resizing multiple images using `sips`
 
 The `sips` command line tool can resize images or convert from one format to another. You can [find a tutorial on resizing images here](https://lifehacker.com/5962420/batch-resize-images-quickly-in-the-os-x-terminal) or a [more extensive guide that covers conversion here](https://robservatory.com/use-sips-to-quickly-easily-and-freely-convert-image-files/)
