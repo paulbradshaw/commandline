@@ -133,3 +133,4 @@ This will list the files and folders in the current directory - and you should s
 * I [maintain a list of command line-related links in my Pinboard bookmarks tagged 'commandline'](https://pinboard.in/u:paulbradshaw/t:commandline/)
 * [8 Useful Shell Commands For Data Science](https://www.datacamp.com/community/tutorials/shell-commands-data-scientist)
 * [Working with CSVs on the command line](http://bconnelly.net/working-with-csvs-on-the-command-line/)
+* [Chrome and Firefox Can Take Screenshots of Sites From the Command Line](https://www.bleepingcomputer.com/news/software/chrome-and-firefox-can-take-screenshots-of-sites-from-the-command-line/)
