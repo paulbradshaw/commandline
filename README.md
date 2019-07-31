@@ -108,6 +108,10 @@ I've [written about that here](https://github.com/paulbradshaw/commandline/blob/
 
 The `sips` command line tool can resize images or convert from one format to another. You can [find a tutorial on resizing images here](https://lifehacker.com/5962420/batch-resize-images-quickly-in-the-os-x-terminal) or a [more extensive guide that covers conversion here](https://robservatory.com/use-sips-to-quickly-easily-and-freely-convert-image-files/)
 
+## Converting Safari's '.webarchive' file format into separate HTML and image files using `textutil`
+
+When you save a webpage in Safari it saves the whole thing as a special `.webarchive` file. However, this can't be easily scraped or searched. To convert it to a HTML file you can use the [instructions in this thread](https://apple.stackexchange.com/questions/123437/how-do-i-turn-a-safari-webarchive-file-into-a-folder) and code like this: `textutil -convert html YOURFILENAME.webarchive`
+
 ## Mass converting CSVs using `curl` with the PDFTables API and other APIs
 
 The [PDFTables API](https://pdftables.com/pdf-to-excel-api) allows you to convert PDFs to CSV, Excel or XML files using `curl` in command line. [I've written a brief tutorial here](https://github.com/paulbradshaw/commandline/blob/master/pdfconversionapi.md).
