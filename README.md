@@ -116,6 +116,10 @@ When you save a webpage in Safari it saves the whole thing as a special `.webarc
 
 The [PDFTables API](https://pdftables.com/pdf-to-excel-api) allows you to convert PDFs to CSV, Excel or XML files using `curl` in command line. [I've written a brief tutorial here](https://github.com/paulbradshaw/commandline/blob/master/pdfconversionapi.md).
 
+## Working with CSVs
+
+In [Bash ⋖3's CSVs: Data Analysis on the cmdline](https://www.youtube.com/watch?v=byEzXt2Ghsc) Nicholas Canzoneri walks through a data set and shows "examples of the best utility to use in different situations." including `grep` and `cut`, `comm` and `tr`.
+
 ## Redacting documents before publication
 
 This is a great one: [CryptoAustralia walk you through using command line to scrub documents of metadata that might compromise sources](https://blog.cryptoaustralia.org.au/2017/05/02/secure-comms-for-journalists/)
