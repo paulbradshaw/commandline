@@ -51,3 +51,13 @@ Right. You should now have 12 CSV files together in that folder. Now type
 `cat *.csv > stopandsearch12month.csv`
 
 You should now have a new file in the same folder with that name, ready to be analysed.
+
+## More advanced options
+
+MA Data Journalism student Niels de Hoog suggested this code to grab CSV files from within their folders, so you don't have to move them manually:
+
+`find . -name "*.csv" -exec cat > all_data.csv {} +`
+
+Fellow student Dror Kessler adds this code to move the CSV files using command line instead (so they can then be combined using `cat`):
+
+`$ mv */* .`
