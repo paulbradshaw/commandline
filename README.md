@@ -145,3 +145,4 @@ This will list the files and folders in the current directory - and you should s
 * [Chrome and Firefox Can Take Screenshots of Sites From the Command Line](https://www.bleepingcomputer.com/news/software/chrome-and-firefox-can-take-screenshots-of-sites-from-the-command-line/)
 * [Exiftool uses command line](https://exiftool.org/install.html) to get info about photos
 * [Pandoc](https://pandoc.org/getting-started.html) is a helpful command line tool for converting documents
+* [Waybackpy](https://github.com/akamhy/waybackpy) is "a Python package and a CLI [command line interface] tool that interfaces with the Wayback Machine APIs"
