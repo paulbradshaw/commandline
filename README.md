@@ -139,6 +139,7 @@ This will list the files and folders in the current directory - and you should s
 ## Other command line links and ideas
 
 * I [maintain a list of command line-related links in my Pinboard bookmarks tagged 'commandline'](https://pinboard.in/u:paulbradshaw/t:commandline/)
+* AJ Vicen's [Command line for reporters repo](https://github.com/aj-vicens/command-line-for-reporters) is pretty useful
 * Max Harlow's talk on [Getting Stories from the Command Line](https://gijc2019.org/2019/09/29/getting-stories-from-the-command-line/) outlines some journalistic uses and techniques
 * [8 Useful Shell Commands For Data Science](https://www.datacamp.com/community/tutorials/shell-commands-data-scientist)
 * [Working with CSVs on the command line](http://bconnelly.net/working-with-csvs-on-the-command-line/)
