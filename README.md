@@ -147,3 +147,4 @@ This will list the files and folders in the current directory - and you should s
 * [Exiftool uses command line](https://exiftool.org/install.html) to get info about photos
 * [Pandoc](https://pandoc.org/getting-started.html) is a helpful command line tool for converting documents
 * [Waybackpy](https://github.com/akamhy/waybackpy) is "a Python package and a CLI [command line interface] tool that interfaces with the Wayback Machine APIs"
+* I used command line in a [project on energy efficiency](https://github.com/BBC-Data-Unit/energy-efficiency-private-rental/blob/main/scripts/Using%20command%20line%20to%20combine%20EPC%20data.pdf)
