@@ -148,3 +148,4 @@ This will list the files and folders in the current directory - and you should s
 * [Pandoc](https://pandoc.org/getting-started.html) is a helpful command line tool for converting documents
 * [Waybackpy](https://github.com/akamhy/waybackpy) is "a Python package and a CLI [command line interface] tool that interfaces with the Wayback Machine APIs"
 * I used command line in a [project on energy efficiency](https://github.com/BBC-Data-Unit/energy-efficiency-private-rental/blob/main/scripts/Using%20command%20line%20to%20combine%20EPC%20data.pdf)
+* You can scrape search results using command line - [see the scraping folder](https://github.com/paulbradshaw/commandline/tree/master/scraping)
