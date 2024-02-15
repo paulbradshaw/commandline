@@ -104,6 +104,14 @@ I've [written about that here](https://github.com/paulbradshaw/commandline/blob/
 
 > "Wget is a command-line utility that can retrieve all kinds of files over the HTTP and FTP protocols. Since websites are served through HTTP and most web media files are accessible through HTTP or FTP, this makes Wget an excellent tool for ripping websites."
 
+The command `wget -mpEk` followed by a particular domain will download the whole site, e.g.
+
+`wget -mpEk onlinejournalismblog.com`
+
+The `-mpEk` part is a collection of **parameters**, as [explained here](https://askubuntu.com/questions/391622/download-a-whole-website-with-wget-or-other-including-all-its-downloadable-con): -m means mirror which "determines the correct depth to return a functioning site"; and -p -E -k "ensure that you're not downloading entire pages that might be linked to (e.g. Link to a Twitter profile results in you downloading Twitter code) while including all pre-requisite files (JavaScript, css, etc.) that the site needs. Proper site structure is preserved as well"
+
+
+
 ## Converting or resizing multiple images using `sips`
 
 The `sips` command line tool can resize images or convert from one format to another. You can [find a tutorial on resizing images here](https://lifehacker.com/5962420/batch-resize-images-quickly-in-the-os-x-terminal) or a [more extensive guide that covers conversion here](https://robservatory.com/use-sips-to-quickly-easily-and-freely-convert-image-files/)
