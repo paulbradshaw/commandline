@@ -88,3 +88,17 @@ Here, for example, we grab every 10th number from 1 to 80 (1, 11, 21, and so on)
 `curl "https://paulbradshaw.tumblr.com/page/[1-80:10]" -o "#1.html" --limit-rate 10k`
 
 You can [find more options and examples in this documentation](https://curl.haxx.se/docs/manpage.html), which also offers a [link to a free PDF book](https://www.gitbook.com/download/pdf/book/bagder/everything-curl). The site also explains `libcurl`, which is a library that can be used outside of command line in more general programming.
+
+## Fetching URLs from a scraped list
+
+You might have scraped a list of URLs from a webpage, and want to use cURL to loop through those URLs and download each one. 
+
+You probably scraped the URLs as one column in a CSV file, so the first step is to copy that column on its own into a new file, without the header row. 
+
+Copy the column of URLs (minus the header) into a text file, calling it 'urls.txt' so that it will work with the code below.
+
+Make sure that file is in the location where you want to download the files to, then navigate to that location in command line and run this code:
+
+`xargs -n 1 curl -O < urls.txt`
+
+(The code comes from [this thread](https://unix.stackexchange.com/questions/281991/pass-a-list-of-urls-contained-in-a-file-to-curl))
