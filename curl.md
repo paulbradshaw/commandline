@@ -101,4 +101,11 @@ Make sure that file is in the location where you want to download the files to, 
 
 `xargs -n 1 curl -O < urls.txt`
 
-(The code comes from [this thread](https://unix.stackexchange.com/questions/281991/pass-a-list-of-urls-contained-in-a-file-to-curl))
+The code comes from [this thread](https://unix.stackexchange.com/questions/281991/pass-a-list-of-urls-contained-in-a-file-to-curl). It does the following:
+
+* Uses `xargs` to ["send the output of one command as a parameter to another command"](https://www.howtogeek.com/435164/how-to-use-the-xargs-command-on-linux/)
+* The `-n 1` are additional options for `xargs` ([listed here](https://www.man7.org/linux/man-pages/man1/xargs.1.html). Those specify that the maximum number (`-n`) of arguments (ingredients) it is going to take will be `1`. That means it will take one line each time. If we set it to `2` it would read in two rows at a time from the file. For example if we changed `curl` to `echo` it would print (echo) two URLs (rows) each time. That's fine for `echo` but it might not work for `cat` because it typically only takes one url at a time. 
+* The `curl` is the command that it is going to run
+* `-O` (letter o) is an option for `curl`: it tells it to save the downloaded file with its original filename
+* The `<` feeds a file into `curl`
+* And `urls.txt` is the name of the file to be feed into `curl`
